@@ -86,9 +86,6 @@ img{
   display: flex;
   align-items: center;
 }
-.Form-Item:nth-child(5) {
-  border-bottom: 1px solid #ddd;
-}
 .Form-Item-Label {
   width: 100%;
   max-width: 248px;
@@ -157,3 +154,5 @@ img{
 .form_top h1{
   margin-bottom: 30px;
 }
+.Form-Item:nth-child(6) {
+  border-bottom: 1px solid #ddd;
