@@ -73,7 +73,6 @@ img{
   margin: 20px 0;
   color: #333;
 }
-/* ここからお試し */
 .Form {
   margin-top: 80px;
   margin-left: auto;
@@ -122,8 +121,7 @@ img{
 .Form-Item-Textarea {
   border: #ddd 1px solid;
   margin-left: 40px;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1rem;
   height: 216px;
   flex: 1;
   width: 100%;
@@ -154,6 +152,142 @@ img{
 .form_top h1{
   margin-bottom: 30px;
 }
-.Form-Item:nth-child(6) {
-  border-bottom: 1px solid #ddd;
+.box_check{
+  display: flex;
+  align-items: center;
+  border-bottom: #ddd 1px solid;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.check{
+  color: #3b9446;
+  border-bottom: #3b9446 1px solid;
+  margin-right: 10px;
+}
+label{
+  margin-left: 40px;
+}
+.dli-external-link {
+  display: inline-block;
+  vertical-align: middle;
+  color: #3b9446;
+  line-height: 1;
+  width: 0.8em;
+  height: 0.8em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.1em;
+  background: #fff;
+  box-sizing: content-box;
+  position: relative;
+}
+.dli-external-link > span {
+  color: #3b9446;
+  position: absolute;
+  top: -0.1em;
+  right: -0.1em;
+  width: 45%;
+  height: 45%;
+  border: 0.1em solid currentColor;
+  border-bottom: 0;
+  border-left: 0;
+  background: #fff;
+  box-shadow: -0.1em 0.1em 0 0.1em #fff;
+  box-sizing: border-box;
+}
+.dli-external-link > span::before {
+  content: '';
+  position: absolute;
+  top: -0.05em;
+  right: -0.1em;
+  width: 0.1em;
+  height: 0.9em;
+  background: currentColor;
+  transform: rotate(45deg);
+  transform-origin: top center;
+}
+.cp_ipselect {
+	overflow: hidden;
+	width: 100%;
+  max-width: 1000px;
+	margin-left: 40px;
+}
+.cp_ipselect select {
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	appearance: none;
+  height: 48px;
+}
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+.cp_ipselect.cp_sl01 {
+	position: relative;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	background: #ffffff;
+}
+.cp_ipselect.cp_sl01::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+.cp_ipselect.cp_sl01 select {
+	padding: 1rem;
+	color: #666666;
+}
+.sec_btn{
+  background-color: #cccc;
+  padding: 80px 0;
+  margin-top: 100px;
+}
+.btn01{
+  padding: 20px 80px;
+  background-color: #ef7995;
+  color: #fff;
+  text-align: center;
+}
+.btn02{
+  padding: 20px 80px;
+  background-color: #3b9446;
+  color: #fff;
+  text-align: center;
+}
+.sec_btn h2{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.btn_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_left{
+  background-color: #fff;
+  padding: 50px 100px 70px 100px;
+  text-align: center;
+}
+.btn_right{
+  background-color: #fff;
+  padding: 50px 100px 70px 100px;
+  text-align: center;
+}
+.btn_01{
+width: 48%;
+}
+.btn_02{
+width: 48%;
 }
